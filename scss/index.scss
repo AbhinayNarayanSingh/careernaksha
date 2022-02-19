@@ -1,0 +1,25 @@
+$black: #101010;
+$light-black: #292929;
+$font-family: "Roboto", sans-serif;
+
+body {
+  background-color: #e5e5e5;
+}
+
+@import "reset";
+@import "header";
+@import "sidebar";
+@import "main";
+// @import "";
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.body-container {
+  width: calc(100% - 126px);
+  margin: 23px auto 0;
+
+  display: flex;
+}
